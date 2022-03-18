@@ -1,0 +1,33 @@
+.logo {
+    width: 75;
+    height: 75px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 20px;
+}
+
+.action-redirect {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #F25A70;
+    color: #FFF;
+}
+
+.action-redirect:hover {
+    background: hsl(350, 98%, 50%);
+    transition: 0.5s;
+}
+
+.main-home {
+    width: 100%;
+    min-height: 440px;
+    background: #002;
+}
