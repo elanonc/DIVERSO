@@ -1,5 +1,5 @@
 .logo {
-    width: 75;
+    width: 75px;
     height: 75px;
 }
 
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF;
+    background-color: #002;
     padding: 10px 20px;
 }
 
@@ -28,6 +28,47 @@
 
 .main-home {
     width: 100%;
-    min-height: 440px;
+    min-height: 340px;
     background: #002;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.main-title {
+    font-family: "Fira Code", sans-serif;
+    font-size: 3.5rem;
+}
+
+.main-subtitle {
+    font-family: "Fira Code", sans-serif;
+    font-size: 1rem; 
+    font-weight: 400;
+}
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.filter-item {
+    font-family: "Fira Code", sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.active-filter {
+    background-color: #F25A70;
+    color: #002;
+    padding: 4px 10px;
+    border-radius: 4px;
 }
